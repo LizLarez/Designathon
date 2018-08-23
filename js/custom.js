@@ -19,6 +19,9 @@
 
     // Events Slider
     var next_event_slider = new Swiper('.next-event-slider', {
+        autoplay: {
+            delay: 2000,
+        },
         slidesPerView: 4,
         spaceBetween: 20,
         loop: true,

@@ -36,7 +36,7 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .home-page {
-    background: url(images/middle-cover.jpg) no-repeat;
+    /* background: url("images/doodles.png") repeat; */
 }
 
 .site-header {
@@ -50,7 +50,8 @@ body {
 }
 
 .site-header figure img {
-    max-width: 100%;
+    max-width: 60%;
+    padding-top: 20px;
 }
 
 /*------------------------------------------------------------
@@ -147,7 +148,7 @@ body {
     overflow: hidden;
     list-style: none;
     transition: all .35s;
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
 }
 
 .site-navigation.show {
@@ -219,12 +220,8 @@ body {
         padding: 0;
     }
 
-    .site-navigation ul li:nth-last-of-type(1) {
-        padding-left: 60px;
-    }
-
     .site-navigation ul li a {
-        color: #fff;
+        color: #ffffff;
     }
 }
 
@@ -233,8 +230,10 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 220px 0;
-    background: url("images/cover.jpg") no-repeat;
+    background: url("images/paint.jpg") no-repeat;
     background-size: cover;
+
+    color: #ffffff;
 }
 
 .hero-content .entry-header {
@@ -245,11 +244,14 @@ body {
 .hero-content .entry-header h2 {
     padding: 50px;
     margin: 0;
-    font-family: mountains;
-    font-size:120px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    /* font-family: mountains; */
+    font-size: 80px;
+    /* background: -webkit-linear-gradient(#00d0ff, #25ffbf); */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .hero-content .entry-header .entry-meta-date {
@@ -259,17 +261,17 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: hsl(0, 0%, 90%);
+    color: #ffffff;
     text-align: center;
 }
 
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
-        font-size: 172px;
+        font-size: 100px;
     }
 
     .hero-content .entry-header .entry-meta-date {
-        top: 60px;
+        top: 40px;
     }
 }
 
@@ -293,14 +295,14 @@ body {
     font-size: 72px;
     font-weight: 600;
     line-height: 1;
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
 }
 
 .countdown-holder label {
     display: block;
     font-size: 18px;
     font-weight: 600;
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
 }
 
 /*------------------------------------------------------------
@@ -312,7 +314,7 @@ body {
 }
 
 .hero-content .entry-footer .btn {
-    background: hsl(0, 0%, 100%);
+    color: #ffffff;
     padding: 16px 40px;
     border-radius: 0;
     margin-right: 20px;
@@ -332,8 +334,8 @@ body {
     min-height: 4640px;
     width: 100%;
     padding-bottom: 120px;
-    background: url("images/middle-cover.jpg") no-repeat;
-    background-size: 100% auto;
+    /* background: url("images/doodles.png") repeat; */
+    background-size: 25% auto;
 }
 
 .content-section .middle-cover {
@@ -515,9 +517,9 @@ body {
     margin-bottom: 0px;
 }
 
-.the-complete-lineup-artists .artist-single:nth-of-type(even) {
+/* .the-complete-lineup-artists .artist-single:nth-of-type(even) {
     margin-top: 120px;
-}
+} */
 
 .the-complete-lineup-artists .artist-single figure {
     margin: 0;
@@ -549,7 +551,7 @@ body {
     color: hsl(0, 0%, 2%);
     text-align: center;
 }
-
+/*
 @media screen and (min-width: 768px) {
     .the-complete-lineup-artists .artist-single:nth-child(6) {
         margin-top: 0;
@@ -589,7 +591,7 @@ body {
     .the-complete-lineup-artists .artist-single:nth-child(8) {
         margin-top: 75px;
     }
-}
+} */
 
 /*------------------------------------------------------------
 # see the-complete-lineup button
@@ -697,7 +699,10 @@ body {
     width: 42px;
     height: 42px;
     margin-left: -21px;
-    background: transparent;
+    /* background: transparent; */
+    font-size: 80px;
+    color: hsl(0, 0%, 0%);
+    background-image: none;
 }
 
 .next-event-slider-wrap .swiper-button-next img {
@@ -748,7 +753,7 @@ body {
     top: 30px;
     left: 0;
     padding: 10px 25px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: #4e4e4e;
     font-size: 20px;
     font-weight: 500;
 }
@@ -767,10 +772,17 @@ body {
     margin: 0;
     padding: 0;
     box-shadow: 10px 40px 115px 27px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 }
 
 .home-page-last-news-wrap .featured-image img {
     max-width: 100%;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .home-page-last-news-wrap .entry-content {
@@ -1947,11 +1959,3 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
-
-
-
-
-
-
-

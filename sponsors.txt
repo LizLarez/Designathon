@@ -1,0 +1,85 @@
+<div class="row">
+                <div class="col-12">
+                    <div class="the-complete-lineup">
+                        <div class="entry-title">
+                            <a name="sponsors"></a>
+                            <p>SPONSORS</p>
+                            <h2>Our beloved supporters</h2>
+                        </div><!-- entry-title -->
+
+                        <div class="row the-complete-lineup-artists">
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/googledesignlogo.jpg" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://design.google/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>Google Design</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/idflogo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://www.interaction-design.org/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>Interaction Design Foundation</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/axurelogo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://www.axure.com/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>Axure</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/protopielogo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://www.protopie.io/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>ProtoPie</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/sketch logo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://www.sketchapp.com/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>Sketch</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/balsamiq-logo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://balsamiq.com/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>Balsamiq</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/uxmastery-logo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://uxmastery.com/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>UX Mastery</h2>
+                            </div><!-- artist-single -->
+
+                            <div class="col-6 col-md-4 col-lg-3 artist-single">
+                                <figure class="featured-image">
+                                    <a href="#"> <img src="images/invision-logo.png" alt=""> </a>
+                                    <a href="#" class="box-link"> <img src="images/box.jpg" alt="https://www.invisionapp.com/"> </a>
+                                </figure><!-- featured-image -->
+
+                                <h2>Invision</h2>
+                            </div><!-- artist-single -->
+                        </div><!-- the-complete-lineup-artists -->
+                    </div><!-- the-complete-lineup -->
+                </div><!-- col-12 -->
+            </div><!-- row -->
