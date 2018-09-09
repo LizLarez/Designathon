@@ -187,6 +187,13 @@ body {
     padding-left: 40px;
 }
 
+.entry-title a h3 {
+    display: block;
+    color: #000;
+    transition: all 0.35s;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
     .header-bar .site-branding {
         margin-left: 35px;
@@ -1093,7 +1100,7 @@ body {
 }
 
 .milestones {
-    padding-bottom: 120px;
+    padding-top: 60px;
 }
 
 .milestones .d-col-n {
