@@ -230,10 +230,14 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 220px 0;
-    background: url("images/paint.jpg") no-repeat;
+    background: url("images/paint.jpg") no-repeat center center fixed;
     background-size: cover;
 
     color: #ffffff;
+}
+
+.laptop-back{
+    background: url("images/laptop_header.jpg") no-repeat center center fixed;
 }
 
 .hero-content .entry-header {
@@ -722,7 +726,7 @@ body {
 # home-page-last-news
 ------------------------------------------------------------*/
 .home-page-last-news {
-    margin-top: 220px;
+    margin-top: 100px;
 }
 
 .home-page-last-news .entry-title p {
@@ -827,7 +831,7 @@ body {
 .site-footer {
     position: relative;
     padding: 40px 0 30px;
-    background: url(images/footer-cover.jpg) no-repeat;
+    background: url(images/people.jpg) no-repeat;
     background-size: cover;
 }
 
