@@ -1,0 +1,10 @@
+language: generic
+branches:
+  only:
+    - master
+# env:
+#   global:
+#   - secure: asdasd
+#   - secure: ljhag
+after_success: |
+  echo "This is the echo"
