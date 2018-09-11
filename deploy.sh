@@ -21,9 +21,8 @@ else
 		#do not upload these files that aren't necessary to the site
 		if [ "$f" != ".travis.yml" ] && [ "$f" != "deploy.sh" ]
 		then
-	 		echo "Uploading $f"
-	 		echo "curl --ftp-create-dirs -T $f -u $FTP_USER:$FTP_PASS ftp://portoux.org/$f"
-            echo "curl --ftp-create-dirs -T $f ftp://$FTP_USER:$FTP_PASS@portoux.org/portoux/tmp/$f"
+	 		echo "Uploading $f to portoux.org/portoux/$f"
+			curl --ftp-create-dirs -T $f ftp://$FTP_USER:$FTP_PASS@portoux.org/portoux/$f
 		fi
 	done
 fi

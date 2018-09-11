@@ -2,9 +2,5 @@ language: generic
 branches:
   only:
     - master
-# env:
-#   global:
-#   - secure: asdasd
-#   - secure: ljhag
 after_success:
   - ./deploy.sh
