@@ -2,5 +2,5 @@ language: generic
 branches:
   only:
     - master
-after_success:
+script:
   - ./deploy.sh
