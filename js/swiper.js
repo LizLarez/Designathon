@@ -16,6 +16,7 @@
 	(global.Swiper = factory());
 }(this, (function () { 'use strict';
 
+
 /**
  * Dom7 2.0.1
  * Minimalistic JavaScript library for DOM manipulation, with a jQuery-compatible API
